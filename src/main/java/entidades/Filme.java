@@ -10,6 +10,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Filme {
-  String nome;
-
+  private String nome;
+  private Integer estoque;
+  private Double precoLocacao;
 }
